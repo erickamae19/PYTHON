@@ -1,0 +1,30 @@
+foods = ["pizza", "burger", "fries", "milktea", "pasta"]
+
+print(foods)
+
+add = input("Food you want to add: ")
+foods.append(add)
+print(foods)
+
+remove = input("Food you want to remove: ")
+if remove in foods:
+    foods.remove(remove)
+    print(foods)
+else:
+    print(f"{remove} not found in the list.")
+
+car = ("lamborghini", "lexus", "ferrari", "porsche", "rolls royce")
+
+print(" ")
+print(car[0])
+print(" ")
+print(car[1])
+print(" ")
+
+
+set1 = {"badminton", "cod", "dancing"}
+set2 = {"badminton", "volleyball", "table tennis"}
+
+print("Union:", set1 | set2)
+print("Intersection:", set1 & set2)
+print("Difference:", set1 - set2)
