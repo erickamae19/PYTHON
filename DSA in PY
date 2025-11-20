@@ -1,0 +1,5 @@
+names = ["Ericka", "Kian", "Aby", "Laurenz", "Rjay", "Bading"]
+
+names.append("Reingel")
+names.remove("Bading")
+print(names)
