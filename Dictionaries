@@ -1,0 +1,6 @@
+grades = {"Ericka": 96, "Kian": 95, "Laurenz": 69, "Aby": 90}
+
+print("Ericka's Grade:", grades["Ericka"])
+
+grades["Aby"] = 91
+print("Updated Grades:", grades)
